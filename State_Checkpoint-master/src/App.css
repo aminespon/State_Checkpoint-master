@@ -1,0 +1,58 @@
+.Buttondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Showbutton {
+  transition: 0.5s;
+  width: 200px;
+  height: 80px;
+  background: none;
+  font-size: 25px;
+  color: #daf7a6;
+  border: 3px solid #daf7a6;
+  margin: 40px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.Showbutton:hover {
+  transition: 0.5s;
+  background: #daf7a6;
+  color: #ffc300;
+  box-shadow: 0px 0px 40px #daf7a6;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  color: white;
+}
+
+.Bio {
+  color: white;
+}
+
+.prof {
+  color: white;
+}
+
+.sponge {
+  color: white;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: white;
+}
